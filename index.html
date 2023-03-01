@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrogHub</title>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module"></script>
+    <script src="js/randomFact.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- header (logo) -->
+    <header>
+        <!-- <img src="#" /> -->
+        <h1>FrogHub</h1>
+        <p>All you need is frogs</p>
+    </header>
+
+<!-- sidebar -->
+    <nav class="sidebar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://d17s0ew5lf8sv2.cloudfront.net/media/frogwithcontroller.png" />
+            </a>
+        </div>
+        <!-- linkies -->
+        <div class="links">
+            <a href="#FOTD">FOTD</a>
+            <a href="#Facts">Facts</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Random">Random</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+<!-- body -->
+   <!-- content -->
+    <div class="main">
+        <!-- FOTD -->
+        <section class="FOTD">
+            <div class="line">
+                <h1 class="title">F.O.T.D</h1>
+            </div>
+            <p class="sub">The frog of the day <br>
+            (will soon be an actual popular frog)</p><br>
+            <img src="https://d17s0ew5lf8sv2.cloudfront.net/media/frogwithcontroller.png" id="fotdimg" />
+        </section>
+
+        <!-- Frog Facts -->
+        <section class="frogfacts">
+            <div class="line">
+                <h1 class="title">Facts</h1>
+            </div>
+            <p class="sub">Frog facts <br> Chosen from a list of frog facts</p>
+            <!-- button for frogfact -->
+            <button id="clickMe" onclick="randomFact()">Generate</button>
+            <p id="factbox"></p>
+            <br>
+        </section>
+
+        <!-- Gallery -->
+        <section class="Gallery">
+            <div class="line">
+                <h1 class="title">Gallery</h1>
+            </div>
+            <p class="sub">Froggies, froggies everywhere! <br> will host masonary style grid of froggies - coming soon!</p><br><br><br><br>
+        </section>
+        <!-- random frog -->
+        <section class="Random">
+            
+            <div class="line">
+                <h1 class="title">Random Frogs</h1>
+            </div>
+            <p class="sub">Get an image of a frog...at random</p><br>
+            <div class="picz">
+                <img id="myPic" />
+            </div>
+            <br><br>
+        </section>
+    </div>    
+
+    <!-- scroll button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+    <script type="text/javascript" src="js/button.js"></script>
+</body>
+</html>
