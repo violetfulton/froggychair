@@ -114,7 +114,7 @@ header h1 {
 
 /* fotd styling */
 
-.FOTD {
+#FOTD {
     color: #26372C;
     margin-bottom: 40px;
     margin-left: 20px;
@@ -211,7 +211,7 @@ header h1 {
 
   /* Frog Fact */
 
-  .frogfacts {
+  #Facts {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -245,19 +245,19 @@ header h1 {
 
   /* gallery styling */
 
-  .Gallery {
+  #Gallery {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 
   /* random frog styling */
 
-  .Random {
+  #Random {
     grid-row-start: 3;
     width: 400px;
   }
 
-  .Random img {
+  #Random img {
     width: 400px;
     object-fit:cover;
     height: 100%;
