@@ -25,4 +25,15 @@ export default [
     'https://d3fecu3m4l4yez.cloudfront.net/frog24.jpg',
     'https://d3fecu3m4l4yez.cloudfront.net/frog25.jpg',
     'https://d3fecu3m4l4yez.cloudfront.net/frog26.jpeg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog149.png',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog153.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog169.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog198.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog220.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog240.png',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog265.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog269.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog271.jpg',
+    'https://d3fecu3m4l4yez.cloudfront.net/frog289.jpg',
+
 ]
