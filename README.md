@@ -1,2 +1,2 @@
-# froghub.co.uk. // big WIP
-All you need is frogs
+# froggychair.com // big WIP
+all you need is frogs
